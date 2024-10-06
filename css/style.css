@@ -107,6 +107,15 @@ header h1 {
     margin-bottom: 10px;
 }
 
+.out-of-order {
+    padding: 5px;
+}
+
+.out-of-order-grid p {
+    color: red;
+    padding: 5px;
+}
+
 /* Contact Section */
 .contact {
     padding: 40px 0;
