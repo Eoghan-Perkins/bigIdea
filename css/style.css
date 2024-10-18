@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #F0F0F0; /* Light Gray */
     color: #333;
     line-height: 1.6;
 	text-align: center;
@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    background-color: #4CAF50; /* Green background for header */
+    background-color: #1C3D5A; /* Navy Blue */
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -34,6 +34,7 @@ header h1 {
 .search-box {
     width: 60%;
     padding: 10px;
+	margin: 0 20px;
     font-size: 1rem;
     border: none;
     border-radius: 5px;
@@ -51,8 +52,8 @@ header h1 {
 	height: 60px;
 	font-size: 24px;
 	cursor: pointer;
-	border: 2px solid #007bff;
-	color: #007bff;
+	border: 2px solid #2ECC71; /* Emerald Green */
+	color: #1C3D5A; /* Navy Blue */
 	border-radius: 5px;
 }
 
@@ -74,17 +75,19 @@ header h1 {
 }
 
 .buttons button:hover {
-	background-color: #0056b3;
+	background-color: #2ECC71; /* Emerald Green */
 }
 
 .service-name {
-	font-size: 36px;
+	margin-left: auto;
+	font-weight: bold;
+	font-size: 48px;
 	font-weight: bold;
 }
 
 /* Hero Section */
 .hero {
-    background-color: #ffcccb; /* Light red background */
+    background-color: #1C3D5A; /* Navy Blue */
     padding: 50px 0;
     text-align: center;
 }
@@ -92,12 +95,12 @@ header h1 {
 .hero h2 {
     font-size: 2.5rem;
     margin-bottom: 15px;
-    color: #333;
+    color: #FFFFFF; /* White Text */
 }
 
 .hero p {
     font-size: 1.2rem;
-    color: #555;
+    color: #FFFFFF; /* White Text */
 }
 
 /* Features Section */
@@ -200,7 +203,7 @@ textarea {
 
 .submit-btn {
     padding: 10px 20px;
-    background-color: #4CAF50; /* Green button */
+    background-color: #2ECC71; /* Green button */
     color: white;
     border: none;
     border-radius: 5px;
@@ -214,7 +217,7 @@ textarea {
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #1C3D5A; /* Navy Blue */
     color: white;
     text-align: center;
     padding: 20px 0;
