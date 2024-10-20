@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Features on Campus</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container header">
+
+            <h1 class="service-name">Includify</h1> 
+            
+			<div class="buttons">
+				<button>Features</button>
+				<button>Buildings</button>
+				<button>Map</button>
+			</div>
+    		
+			<input type="text" placeholder="Search..." class="search-box">        
+	
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Find Accessibility Features Across Campus</h2>
+            <p>Helping students find accessible bathrooms, elevators, and more!</p>
+        </div>
+    </section>
+
+    <section class="out-of-order">
+        <div class="container">
+            <h3>Accessibility Services Currently Out of Order:</h3>
+            <div class="out-of-order-grid" id="out-of-order-grid">
+                <!-- This will be populated dynamically via JavaScript -->
+                <p>Reid Hall Elevator</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h3>Accessibility Features</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4>Accessible Bathrooms</h4>
+                    <img src="images/bathroom.jpg" alt="Accessible Bathroom" class="feature-image">
+                    <p>Find the nearest accessible bathrooms across campus.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Accessible Elevators</h4>
+                    <img src="images/elevator.jpg" alt="Accessible Elevator" class="feature-image">
+                    <p>Locate elevators equipped with accessibility features for easy access.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Wheelchair Lifts</h4>
+                    <img src="images/wheelchair.jpg" alt="Wheelchair Lifts" class="feature-image">
+                    <p>Locate Chair Lifts for Traversing Building Floors.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Service Animal Relief Areas</h4>
+                    <img src="images/serviceDog.jpg" alt="Service Animal Relief Areas" class="feature-image">
+                    <p>Locate the nearest appropriate places to take care of your furry friends needs.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Low-Stimulaton Areas</h4>
+                    <img src="images/lowStim.jpg" alt="Low-Stimulaton Areas" class="feature-image">
+                    <p>Locate quiet areas dedicated to low stimulation.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Buildings with ADA Parking</h4>
+                    <img src="images/parking.jpg" alt="ADA Parking" class="feature-image">
+                    <p>Locate Buildings Across Campus with ADA Parking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h3>Contact Us</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" class="input-box">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" class="input-box">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your message..." class="input-box"></textarea>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="container">
+            <p>&copy; 2024 Accessibility Features on Campus. All rights reserved.</p>
+
+        </div>
+    </footer>
+</body>
+
+</html>
