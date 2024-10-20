@@ -22,12 +22,16 @@ body {
 header {
     background-color: #1C3D5A; /* Navy Blue */
     color: white;
-    padding: 20px 0;
+    /*padding: 20px 0;*/
     text-align: center;
 }
 
+.container-header {
+    
+}
 header h1 {
     font-size: 3rem;
+    padding: 20px;
     margin-bottom: 10px;
 }
 
@@ -49,8 +53,9 @@ header h1 {
 
 .buttons button{
 	width: 100px;
-	height: 60px;
-	font-size: 24px;
+	height: 30px;
+    
+	font-size: 16px;
 	cursor: pointer;
 	border: 2px solid #2ECC71; /* Emerald Green */
 	color: #1C3D5A; /* Navy Blue */
